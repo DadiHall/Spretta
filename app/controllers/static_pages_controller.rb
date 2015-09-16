@@ -10,4 +10,8 @@ class StaticPagesController < ApplicationController
 
   def policy
   end
+    
+    def disclaimer
+    end
+    
 end

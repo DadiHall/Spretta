@@ -20,5 +20,10 @@ class StaticPagesControllerTest < ActionController::TestCase
     get :policy
     assert_response :success
   end
+    
+    test "should get disclaimer" do
+        get :disclaimer
+    assert_response :success
+  end
 
 end
