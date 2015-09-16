@@ -14,4 +14,7 @@ class StaticPagesController < ApplicationController
     def disclaimer
     end
     
+    def contact
+    end
+    
 end
